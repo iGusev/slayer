@@ -209,7 +209,7 @@ class AuthController extends Controller
         # ---- alternative call:
         #           $this->view->make(...)
 
-        // return View::make('auth.showLoginForm');
+        return View::make('auth.showLoginForm');
     }
 
 
